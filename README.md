@@ -2,6 +2,8 @@
 
 >This used to be a fork of [ldn0x7dc/react-native-gallery](https://github.com/ldn0x7dc/react-native-image-gallery) but since the author has stopped maintaining it, here's our own repo. Props to him for his work !
 
+>The PDF Viewer feature is using [react-native-pdf](https://github.com/wonday/react-native-pdf) as dependencies, please make sure you follow the instruction to install `react-native-pdf` before using this
+
 A pure JavaScript image gallery component for react-native apps with common gestures like pan, pinch and doubleTap, supporting both iOS and Android.
 
 This component aims to be (one of) the best image viewer for react-native apps. Comparing with other gallery alike components, this one should be more elegant in following aspects: (mimics iOS system photo album app).
