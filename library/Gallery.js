@@ -167,10 +167,11 @@ export default class Gallery extends Component {
         return true;
       }
     } else {
-      if (dx > 0 && this.currentPage > 0) { // Prev
+      // Todo: need to check if the pdf is zooming then prevent next/prev to allow user to move horizontal
+      if (dx > 2 && this.currentPage > 0) { // Prev
         return true;
       }
-      if (dx < 0 && this.currentPage < this.pageCount - 1) { // Next
+      if (dx < -2 && this.currentPage < this.pageCount - 1) { // Next
         return true;
       }
     }
